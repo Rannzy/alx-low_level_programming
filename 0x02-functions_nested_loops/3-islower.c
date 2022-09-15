@@ -1,15 +1,21 @@
 #include "main.h"
-/**
-*_islower - function that prints lowercase characters
-*@c; int used for the argument function
-*Return: 0
+
+/** 
+* _islower -prints the lowercase characters
+*
+* @c: the character in ASCII code
+*
+*Return: 1 if character is lowercase,otherwise 0.
 */
 int _islower(int c)
-{
-	if (c >= Ã'a' && c <= 'z')
+{	
+	if (c >= 97 && c <= 122)
 	{
 		return (1);
 	}
 	else
+	{
 		return (0);
+	}
+	_putchar('\n');
 }
