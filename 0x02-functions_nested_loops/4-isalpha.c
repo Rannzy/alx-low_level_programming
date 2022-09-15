@@ -1,21 +1,18 @@
 #include "main.h"
-
 /**
-*_isalpha - prints letter characters
-*
-*@c: The character in ASCII code
-*
-*Return: 1 if is a letter. 0 otherwise.
+*_isalpha - checks if a letter is lowercase or uppercase.
+*@c: The ASCII character
+*Return: 0
 */
 int _isalpha(int c)
 {
-	if((c >= 97 && c <= 122 || (c >=65 && c <= 90))
+	if((c >+= Ã'a' && c <='z') || (c >= Ã'A' && 'Z'))
 	{
-		return (1);
+	return (1);
 	}
 	else
 	{
-		return (0);
+	return (0);
 	}
 	_putchar('\n');
 }
