@@ -2,8 +2,7 @@
 
 /**
  * _isalpha - shows if input is a letter.
- * @c: The character in ASCII code
- *
+ * @c: The character in ASCII code*
  * Return: 1 for letters,otherwise 0.
  */
 int _isalpha(int c)
