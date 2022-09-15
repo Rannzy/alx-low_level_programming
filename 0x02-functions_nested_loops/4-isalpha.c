@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * _isalpha - shows if input is a letter.
