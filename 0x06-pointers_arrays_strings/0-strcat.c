@@ -2,7 +2,7 @@
 
 /**
  * _strcat - concatenates one string to the end of another
- * @desr: String that will be appended
+ * @dest: String that will be appended
  * @src: String to be concatenated
  *
  * Return: return pointer to @dest
