@@ -6,7 +6,7 @@
  * Return: 0 if S1 and S2 are equal or another otherwise
  */
 
-int_strcmp(char *s1, char *s2)
+int _strcmp(char *s1, char *s2)
 {
 	int i = 0, op = 0;
 
