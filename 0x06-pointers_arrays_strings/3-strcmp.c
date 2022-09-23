@@ -3,7 +3,7 @@
  * _strcmp - compares two strings
  * @s1: first string
  * @s2: second string
- * Return: 0 if S1 and S2 are equal and another otherwise
+ * Return: 0 if S1 and S2 are equal or another otherwise
  */
 
 int_strcmp(char *s1, char *s2)
