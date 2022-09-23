@@ -6,7 +6,7 @@
  * @n: amount of bytes used from src
  * Return: the pointer to dest
  */
-char *strncat(char *dest, char *src, intn)
+char *_strncat(char *dest, char *src, int n)
 {
 	int count = 0, count2 = 0;
 
@@ -17,7 +17,7 @@ char *strncat(char *dest, char *src, intn)
 
 	while (count2 < n)
 	{
-		*(dest + count) = *(src + count2):
+		*(dest + count) = *(src + count2);
 		if (*(src + count2) == '\0')
 			break;
 		count++;
